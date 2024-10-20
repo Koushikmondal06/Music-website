@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styel-music.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+
+<body>
+    <div class=" wave4 flex">
+
+        <div class="left border bg-black">
+            <div class="home bg-gray rounded m-1 p-1">
+                <div class="logo">
+                    <img class="invert  logo1" src="allsvg/logo.svg" alt="logo">
+                    <img src="allsvg/close.svg" alt="" class="close invert">
+                </div>
+                <ul>
+                    <li><img class="invert" src="allsvg/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="allsvg/scarch.svg" alt="search">Search</li>
+
+                </ul>
+            </div>
+            <div class="library bg-gray rounded m-1 p-1 ">
+                <div class="head">
+                    <img class="invert" src="allsvg/library.svg" alt="library">
+                    <h3>Your Library</h3>
+                </div>
+                <div class="song-menu">
+                    <li class="song-item">
+                        <span>01</span>
+                        <img class="musicImg" id="1" src="music img/img-1.jpeg" alt="">
+                        <h5>Pink Blue <br>
+                            <div class="singer">Tsumyoki,Bharg</div>
+                        </h5>
+                        <img class="playlist invert" id="1" src="allsvg/playlist.svg" alt="">
+
+                    </li>
+                    <li class="song-item">
+                        <span>02</span>
+                        <img class="musicImg" src="music img/img-2.jpg" alt="">
+                        <h5>7 Years <br>
+                            <div class="singer">Lukas Graham</div>
+                        </h5>
+                        <img class="playlist invert" id="2" src="allsvg/playlist.svg" alt="">
+
+                    </li>
+                    <li class="song-item">
+                        <span>03</span>
+                        <img class="musicImg" src="music img/img-3.jpg" alt="">
+                        <h5>Sadqay <br>
+                            <div class="singer">Aashir,Nayel</div>
+                        </h5>
+                        <img class="playlist invert" id="3" src="allsvg/playlist.svg" alt="">
+
+                    </li>
+                    <li class="song-item">
+                        <span>04</span>
+                        <img class="musicImg" src="music img/img-4.jpeg" alt="">
+                        <h5>co2 <br>
+                            <div class="singer">Prateek Kuhad</div>
+                        </h5>
+                        <img class="playlist invert" id="4" src="allsvg/playlist.svg" alt="">
+
+                    </li>
+                    <li class="song-item">
+                        <span>05</span>
+                        <img class="musicImg" src="music img/img-5.jpeg" alt="">
+                        <h5>Amake Aamar Moto Thakte Dao <br>
+                            <div class="singer">Anupam Ray</div>
+                        </h5>
+                        <img class="playlist invert" id="5" src="allsvg/playlist.svg" alt="">
+
+                    </li>
+                    <li class="song-item">
+                        <span>06</span>
+                        <img class="musicImg" src="music img/img-6.jpg" alt="">
+                        <h5>Sajna-Lofi<br>
+                            <div class="singer">Arijit Singh</div>
+                        </h5>
+                        <img class="playlist invert" id="6" src="allsvg/playlist.svg" alt="">
+
+                    </li>
+                    <li class="song-item">
+                        <span>07</span>
+                        <img class="musicImg" src="music img/img-6.jpg" alt="">
+                        <h5>Sajna-Lofi<br>
+                            <div class="singer">Arijit Singh</div>
+                        </h5>
+                        <img class="playlist invert" id="7" src="allsvg/playlist.svg" alt="">
+
+                    </li>
+                    <li class="song-item">
+                        <span>08</span>
+                        <img class="musicImg" src="music img/img-6.jpg" alt="">
+                        <h5>Sajna-Lofi<br>
+                            <div class="singer">Arijit Singh</div>
+                        </h5>
+                        <img class="playlist invert" id="8" src="allsvg/playlist.svg" alt="">
+
+                    </li>
+                    <li class="song-item">
+                        <span>09</span>
+                        <img class="musicImg" src="music img/img-6.jpg" alt="">
+                        <h5>Sajna-Lofi<br>
+                            <div class="singer">Arijit Singh</div>
+                        </h5>
+                        <img class="playlist invert" id="9" src="allsvg/playlist.svg" alt="">
+
+                    </li>
+
+                </div>
+                <div class="contact">
+                    <h3>Created And Developed by Koushik Mondal</h3>
+                    <div class="link">
+
+                        <a class="instagram" href="https://www.instagram.com/koushik_mondal__20/">
+                            <h5>instagram</h5>
+                        </a>
+                        <a class="linkedin" href="https://www.linkedin.com/in/koushik-mondal-011308329/">
+                            <h5>linkedin</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right rounded m-1">
+            <div class="imgsong">
+                <img src="singers-img/mainpage.jpg" alt="" sizes="" srcset="">
+
+            </div>
+            <nav>
+                <ul>
+                    <img src="allsvg/hamb.svg" alt="" class="hamb invert">
+                    <li class="discover" style="color: white;"> discover <span></span></li>
+                    <li>My Library </li>
+                    <li>radio </li>
+                </ul>
+                <div class="search invert">
+                    <img src="allsvg/scarch.svg" alt="" class="searchicon">
+                    <input type="text" placeholder="search music...">
+                </div>
+                <div class="user">
+                    <img class="invert" src="allsvg/user.svg" alt="">
+                </div>
+            </nav>
+            <div class="content">
+                <h1> Alan Walker - On My Way</h1>
+
+                <p>I'm sorry but Don't wanna talk I need a moment before i go It's nothing personal I draw the blinds
+                    They don't need to see me cry</p>
+                <p>
+                    'Cause even if they understand So then when I'finished I'am all bout my business And ready to save
+                    the world
+                </p>
+                <div class="butt">
+                    <div id="playbutten">PLAY</div>
+                    <div>FOLLOW</div>
+                </div>
+
+            </div>
+            <div class="mainPart">
+
+                <div class="topsong">
+                    <div class="start">
+                        <img class="invert" src="allsvg/song.svg" alt="">
+                        <h1>Top Songs</h1>
+                    </div>
+
+                    <div class="end">
+                        <img class="invert" id="song-left" src="allsvg/leftArr.svg" alt="">
+                        <img class="invert" id="song-right" src="allsvg/rightArr.svg" alt="">
+                    </div>
+                </div>
+                <div class="song">
+                    <div class="cart">
+                        <li class="song-item">
+                            <div class="song-pic">
+
+                                <img class="musicImg" src="music img/img-1.jpeg" alt="">
+                                <img class="playlist invert" id="10" src="allsvg/playlist.svg" alt="">
+                            </div>
+                            <h5>Pink Blue <br>
+                                <div class="singer">Tsumyoki,Bharg</div>
+                            </h5>
+
+                        </li>
+                    </div>
+                    <div class="cart">
+                        <li class="song-item">
+                            <div class="song-pic">
+
+                                <img class="musicImg" src="music img/img-1.jpeg" alt="">
+                                <img class="playlist invert" id="11" src="allsvg/playlist.svg" alt="">
+                            </div>
+                            <h5>Pink Blue <br>
+                                <div class="singer">Tsumyoki,Bharg</div>
+                            </h5>
+
+                        </li>
+                    </div>
+                    <div class="cart">
+                        <li class="song-item">
+                            <div class="song-pic">
+
+                                <img class="musicImg" src="music img/img-1.jpeg" alt="">
+                                <img class="playlist invert" id="12" src="allsvg/playlist.svg" alt="">
+                            </div>
+                            <h5>Pink Blue <br>
+                                <div class="singer">Tsumyoki,Bharg</div>
+                            </h5>
+
+                        </li>
+                    </div>
+                    <div class="cart">
+                        <li class="song-item">
+                            <div class="song-pic">
+
+                                <img class="musicImg" src="music img/img-1.jpeg" alt="">
+                                <img class="playlist invert" id="13" src="allsvg/playlist.svg" alt="">
+                            </div>
+                            <h5>Pink Blue <br>
+                                <div class="singer">Tsumyoki,Bharg</div>
+                            </h5>
+
+                        </li>
+                    </div>
+                    <div class="cart">
+                        <li class="song-item">
+                            <div class="song-pic">
+
+                                <img class="musicImg" src="music img/img-1.jpeg" alt="">
+                                <img class="playlist invert" id="14" src="allsvg/playlist.svg" alt="">
+                            </div>
+                            <h5>Pink Blue <br>
+                                <div class="singer">Tsumyoki,Bharg</div>
+                            </h5>
+
+                        </li>
+                    </div>
+                    <div class="cart">
+                        <li class="song-item">
+                            <div class="song-pic">
+
+                                <img class="musicImg" src="music img/img-1.jpeg" alt="">
+                                <img class="playlist invert" id="15" src="allsvg/playlist.svg" alt="">
+                            </div>
+                            <h5>Pink Blue <br>
+                                <div class="singer">Tsumyoki,Bharg</div>
+                            </h5>
+
+                        </li>
+                    </div>
+                    <div class="cart">
+                        <li class="song-item">
+                            <div class="song-pic">
+
+                                <img class="musicImg" src="music img/img-1.jpeg" alt="">
+                                <img class="playlist invert" id="16" src="allsvg/playlist.svg" alt="">
+                            </div>
+                            <h5>Pink Blue <br>
+                                <div class="singer">Tsumyoki,Bharg</div>
+                            </h5>
+
+                        </li>
+                    </div>
+                    <div class="cart">
+                        <li class="song-item">
+                            <div class="song-pic">
+
+                                <img class="musicImg" src="music img/img-1.jpeg" alt="">
+                                <img class="playlist invert" id="17" src="allsvg/playlist.svg" alt="">
+                            </div>
+                            <h5>Pink Blue <br>
+                                <div class="singer">Tsumyoki,Bharg</div>
+                            </h5>
+
+                        </li>
+                    </div>
+                    <div class="cart">
+                        <li class="song-item">
+                            <div class="song-pic">
+
+                                <img class="musicImg" src="music img/img-1.jpeg" alt="">
+                                <img class="playlist invert" id="18" src="allsvg/playlist.svg" alt="">
+                            </div>
+                            <h5>Pink Blue <br>
+                                <div class="singer">Tsumyoki,Bharg</div>
+                            </h5>
+
+                        </li>
+                    </div>
+                    <div class="cart">
+                        <li class="song-item">
+                            <div class="song-pic">
+
+                                <img class="musicImg" src="music img/img-1.jpeg" alt="">
+                                <img class="playlist invert" id="19" src="allsvg/playlist.svg" alt="">
+                            </div>
+                            <h5>Pink Blue <br>
+                                <div class="singer">Tsumyoki,Bharg</div>
+                            </h5>
+
+                        </li>
+                    </div>
+                    <div class="cart">
+                        <li class="song-item">
+                            <div class="song-pic">
+
+                                <img class="musicImg" src="music img/img-1.jpeg" alt="">
+                                <img class="playlist invert" id="20" src="allsvg/playlist.svg" alt="">
+                            </div>
+                            <h5>Pink Blue <br>
+                                <div class="singer">Tsumyoki,Bharg</div>
+                            </h5>
+
+                        </li>
+
+                    </div>
+                    <div class="cart">
+                        <li class="song-item">
+                            <div class="song-pic">
+
+                                <img class="musicImg" src="music img/img-1.jpeg" alt="">
+                                <img class="playlist invert" id="21" src="allsvg/playlist.svg" alt="">
+                            </div>
+                            <h5>Pink Blue <br>
+                                <div class="singer">Tsumyoki,Bharg</div>
+                            </h5>
+
+                        </li>
+                    </div>
+
+                </div>
+
+
+                <div class="top-art-top">
+                    <div class="start">
+                        <img class="invert" src="allsvg/song.svg" alt="">
+                        <h1>Top Singers</h1>
+                    </div>
+
+                    <div class="end">
+                        <img class="invert" id="singers-left" src="allsvg/leftArr.svg" alt="">
+                        <img class="invert" id="singers-right" src="allsvg/rightArr.svg" alt="">
+                    </div>
+
+                </div>
+                <div class="singers">
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="cart">
+                        <div class="pic">
+                            <img class="singer-pic" src="singers-img/img-1(ar).jpeg" alt="">
+                            <img class="playlist invert" src="allsvg/playlist.svg" alt="">
+
+                        </div>
+                        <h4>Arijit Singh</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    </div>
+    <div class="player flex rounded">
+
+
+
+        <div class="wave">
+            <div class="wave1 wave2 "></div>
+            <div class="wave1 wave3"></div>
+            <div class="wave1 wave4"></div>
+        </div>
+      
+            <img src="musicimg/img-1.jpg" alt="" id="posterplayer">
+            <h5 id=title>Pink Blue
+                <div class="sub">Tsumyoki,Bharg</div>
+            </h5>
+        
+        <div class="phone">
+
+            <div class="icon">
+                <img class="invert back" id="back" src="allsvg/back.svg" alt="">
+                <img class="invert play" id="player" src="allsvg/play.svg" alt="">
+
+                <img class="invert next" id="next" src="allsvg/next.svg" alt="">
+            </div>
+
+            <div class="phonly">
+                <div class="time">
+                    <span id="currentstart">0.00 </span>
+                    <span> /</span>
+                    <span id="currentend">4.35</span>
+                </div>
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100" value="0.00">
+                </div>
+
+            </div>
+        </div>
+        <div class="vol flex">
+            <img class="invert volicon" src="allsvg/vol.svg" alt="">
+            <input type="range" id="vol" min="0" max="100" value="100">
+
+
+        </div>
+        <div class="saveicon">
+            <img src="allsvg/save.svg" alt="" class=" invert">
+        </div>
+        <div class="logo2">
+
+            <img src="allsvg/logo.svg" alt="" class=" invert">
+        </div>
+    </div>
+
+
+    <script src="script-music.js"></script>
+</body>
+
+</html>
