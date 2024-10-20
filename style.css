@@ -8,7 +8,8 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+ 
+   background-image: linear-gradient(#00549E);
 padding:0. 5%;
 position: relative;
 display: flex;
@@ -39,14 +40,26 @@ nav ul li {
     cursor: pointer;
     opacity: 0.8;
     line-height: inherit; 
+    list-style: none;
 }
-nav ul li h4{
+nav ul li a{
     color: orange;
     opacity: 0.8;
+    
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
 }
 
-nav ul li h4:hover  {
+nav ul li a:hover  {
     color: white; 
+}
+
+nav ul li .home{
+    color: white;
+}
+nav ul li .aboutus{
+    color: white;
 }
 
 .con .text{
@@ -72,6 +85,7 @@ margin-left: 100px;
 }
 .con{
     text-align: center;
+    animation:slideUp  0.5s ease-in-out ;
 }
 .con a{
     text-decoration: none;
@@ -102,5 +116,35 @@ background: orange;
     .back-video{
         width: auto;
         height: 100%;
+    }
+}
+@keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    70%{
+      opacity: 1;
+      transform: translateY(-15%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @media (max-width: 1100px){
+    .back-video{
+       
+        opacity: 0;
+        
+    }
+    .con h1{
+        font-size: 25px;
+       
+    }
+    .con .text{
+        margin-left: 150px;
+    }
+    .hero{
+        background: #00549E;
     }
 }

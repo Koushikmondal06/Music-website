@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    color: white;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: #00549E;
+padding:0. 5%;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: cente
+
+
+
+}
+nav{
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav .logo{
+    width: 50px;
+    height: 50px;
+}
+nav ul li {
+    display: inline-block;
+    color: orange;
+    margin-left: 40px;
+    cursor: pointer;
+    opacity: 0.8;
+    line-height: inherit; 
+    list-style: none;
+}
+nav ul li a{
+    color: orange;
+    opacity: 0.8;
+    
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav ul li a:hover  {
+    color: white; 
+}
+
+nav ul li .home{
+    color: white;
+}
+nav ul li .aboutus{
+    color: white;
+}
+.abourus-text{
+    position: absolute;
+    top: 10%;
+    color: #f5b201;
+    animation:slideUp  0.5s ease-in-out ;
+   
+
+}
+.abourus-text h1{
+    margin-top: 50px;
+    color: #f5b201;
+    margin-bottom: 8px;
+}
+@keyframes slideUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    70%{
+      opacity: 1;
+      transform: translateY(-15%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .abourus-text h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
