@@ -285,7 +285,7 @@ document.querySelector(".hamb").addEventListener("click", () => {
 document.querySelector(".close").addEventListener("click", () => {
   document.querySelector(".left").style.left = "-120%";
 })
-document.querySelector(".playbutten").addEventListener("click", () => {
+document.getElementById('playbutten').addEventListener("click", () => {
   music.src ="audio/song-10.mp3";
   posterplayer.src = "musicimg/img-10.jpg";
   document.getElementById("player").src = "allsvg/pause.svg";

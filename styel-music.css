@@ -303,7 +303,9 @@ body::-webkit-scrollbar {
   height: 32.5vh;
   position: absolute;
   z-index: -1;
+  max-height:32.5vh ;
 }
+
 
 .right {
   z-index: 2;
@@ -392,38 +394,18 @@ body::-webkit-scrollbar {
   padding-top: 20px;
   padding-left: 10px;
 }
-.content h1 {
-  font-size: 25px;
-  font-weight: 600;
-  color: white;
+.content h1{
+  color: orange;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
-.content p {
-  font-size: 11px;
+.content h5{
+  color: rgb(153, 108, 24);
   font-weight: 400;
-  color: #4c5262;
-  margin: 5px;
+  margin-top: 5px;
 }
-.content .butt {
-  margin-top: 70px;
-  display: flex;
-}
-.content .butt div{
-  width: 170px;
-  border-radius: 20px;
-  height: 35px;
-  background: rgb(41, 212, 212);
-  color: white;
-  cursor: pointer;
-  transition: 0.3s linear;
-  border: 2px solid rgb(41, 212, 212);
-  display: flex;
-  justify-content: center;
-  align-items:center ;
-}
-.content.butt div:hover {
-  background: transparent;
-  color: rgb(66, 139, 139);
-}
+
+
 .mainPart {
   width: 100%;
   height: 64%;
